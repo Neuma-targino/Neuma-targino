@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Roleta Em</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1pyzlftnxugu</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>300</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="RoletaDasEmoções" sid="419369029518095">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Velocidade" sid="725124121025706" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Rotate" sid="423018222182922">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273336055626967" speed="5">
+                    <frame duration="1" hotspotX="0.501341" hotspotY="0.501341" original-source="C:\Users\Usuario\Desktop\Pasta de Imagens\Imagem Nova sem fundo.png">
+                        <collision-poly>
+                            <point x="0.147453" y="0.147453" />
+                            <point x="0.512064" y="0" />
+                            <point x="0.852547" y="0.147453" />
+                            <point x="1" y="0.49866" />
+                            <point x="0.852547" y="0.852547" />
+                            <point x="0.49866" y="1" />
+                            <point x="0.147453" y="0.852547" />
+                            <point x="0" y="0.49866" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Feliz" sid="447749709093227">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="407784102164352">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820895814080949" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503226" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem Feliz sem emoção.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Amor" sid="230590237270876">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="251583342077714">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194209789844605" speed="5">
+                    <frame duration="1" hotspotX="0.504951" hotspotY="0.5" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem Amor sem emoção1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Raiva" sid="311242131159173">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="471756881531717">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="121478229484319" speed="5">
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem Raiva sem emoção2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Medo" sid="281132771769276">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="337419484841518">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510834938820384" speed="5">
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem_medo_sem_emoção.pgn-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vergonha" sid="352777261254371">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="287074719236328">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516842050337752" speed="5">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.505747" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem_vergonha_sem_emoção-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tristeza" sid="592519062598653">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="164519319370367">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354864444156466" speed="5">
+                    <frame duration="1" hotspotX="0.46988" hotspotY="0.767857" original-source="C:\Users\Usuario\Downloads\Imagem_Tristeza-removebg-preview (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Corajoso" sid="137901095488680">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="214063341453266">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950755416123312" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.688312" original-source="C:\Users\Usuario\Downloads\Imagem Corajoso.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Indicador" sid="934643264834668">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="603051096989514">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="560956389065026" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\Desktop\Pasta de Imagens\Indicador sem fundo.png">
+                        <collision-poly>
+                            <point x="0.176" y="0.422" />
+                            <point x="0.384" y="0.412" />
+                            <point x="0.506" y="0.414" />
+                            <point x="0.486" y="0.456" />
+                            <point x="0.426" y="0.474001" />
+                            <point x="0.396" y="0.49" />
+                            <point x="0.356" y="0.496" />
+                            <point x="0.188" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Girar" sid="113844601739443">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="AmorTexto" sid="128826055812161">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="497815458342738">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="RaivaTexto" sid="910936261315479">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="563205044372413">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="FelizTexto" sid="540550992115306">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="478062982760664">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="TristezaTexto" sid="133136032139464">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="328740355118025">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="CorajosoTexto" sid="118650941853644">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="538236146974927">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="MedoTexto" sid="163296954624113">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="997458439265266">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="VergonhaTexto" sid="508199148702068">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="533053364553854">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>VergonhaTexto</type>
+                <type>Nojo</type>
+            </container>
+        </object-type>
+        <object-type name="NojoTexto" sid="360580439446046">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="249729237469320">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Nojo" sid="169438409285107">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="773174937539003">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>VergonhaTexto</type>
+                <type>Nojo</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677833442500417" speed="5">
+                    <frame duration="1" hotspotX="0.448718" hotspotY="0.611765" original-source="C:\Users\Usuario\Desktop\Roleta para o TCC\Nojo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EngracadoTexto" sid="207571499573044">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="593927032899206">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Engracado" sid="718902379350415">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="893483642450896">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946622787320692" speed="5">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\Usuario\Desktop\Pasta das carinhas sem descrição da emoção\Imagem_engraçado_sem_emoção-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
